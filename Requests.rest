@@ -1,0 +1,36 @@
+### GET /api/v1/usuario
+GET /api/v1/usuario HTTP/1.1
+Host: 127.0.0.1:8081
+Content-Type: application/json
+
+### GET /api/v1/usuario/1
+GET /api/v1/usuario/20 HTTP/1.1
+Host: 127.0.0.1:8081
+Content-Type: application/json
+
+### POST
+POST /api/v1/usuario HTTP/1.1
+Host: 127.0.0.1:8081
+Content-Type: application/json
+
+{
+    "nome": "Regina",
+    "sexo": "F",
+    "ativo": true
+}
+
+### PUT
+PUT /api/v1/usuario/1 HTTP/1.1
+Host: 127.0.0.1:8081
+Content-Type: application/json
+
+{
+    "nome": "Alfredo",
+    "sexo": "M",
+    "ativo": true
+}
+
+### DELETE
+DELETE  /api/v1/usuario/1 HTTP/1.1
+Host: 127.0.0.1:8081
+
